@@ -1,7 +1,28 @@
 aid: medzoomer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medzoomer.png
 name: Medzoomer
-description: Medzoomer is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Medzoomer is an on-demand prescription delivery platform that connects
+  pharmacies, healthcare providers, and patients through a secure, HIPAA-compliant
+  network of verified couriers. Founded in 2019 and headquartered in Tampa,
+  Florida, the company handles last-mile medication logistics, including controlled
+  substances (Schedule II-V), with tamper-evident packaging, FDA/TSA-approved
+  envelopes, and real-time order tracking. Pharmacies and couriers operate through
+  dedicated web and mobile applications, and the platform is backed by Techstars,
+  UnitedHealthcare Accelerator, and other investors. Medzoomer operates a private
+  pharmacy integration API but publishes no public developer documentation, SDKs,
+  or OpenAPI at this time.
 url: https://raw.githubusercontent.com/api-evangelist/medzoomer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pharmacy
+- Prescription Delivery
+- Healthcare
+- Logistics
+- Last Mile Delivery
+- Courier
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,20 @@ maintainers:
 common:
 - type: Website
   url: https://medzoomer.com/
+- type: Portal
+  url: https://pharmacy.medzoomer.com/login
+- type: Login
+  url: https://pharmacy.medzoomer.com/login
+- type: Support
+  url: https://medzoomer.com/get-help/
+- type: PrivacyPolicy
+  url: https://medzoomer.com/privacy-policy/
+- type: TermsOfService
+  url: https://medzoomer.com/terms-of-use/
+- type: DomainSecurity
+  url: security/medzoomer-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
